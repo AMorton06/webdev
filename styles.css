@@ -1,0 +1,17 @@
+body {
+    background-color: burlywood;
+}
+
+#first {
+    color: aqua;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 700px) {
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
