@@ -46,7 +46,7 @@ main {
 }
 
 #resources {
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
     grid-row: 4 / 5;
 }
 
@@ -56,7 +56,7 @@ main {
 }
 
 #questions {
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
     grid-row: 5 / 6;
 }
 
@@ -65,3 +65,12 @@ main {
     grid-row: 5 / 6;
 }
 
+#news {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+#gridbugs {
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+}
