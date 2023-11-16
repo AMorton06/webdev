@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event</title>
+        <link href="event.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="greeting">Hello World</h1>
+        <div id="color"></div>
+        <div id="shape"></div>
+        <style>
+            .droptarget {
+              width: 100px; 
+              height: 35px;
+              padding: 10px;
+              border: 1px solid black;
+            }
+            </style>
+            
+<p>Drag the text up and down between the two rectangles:</p>
+
+<div class="droptarget">
+  <p draggable="true" id="dragtarget">Drag me!</p>
+</div>
+<p id="demo"></p>
+<div class="droptarget"></div>
+<p>Enter your name:</p>
+ <input type="text" id="fname">
+    </body>
+    <footer>
+        <script src="event.js"></script>
+    </footer>
+</html>

@@ -1,0 +1,12 @@
+#color {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+#shape {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
