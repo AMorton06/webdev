@@ -64,7 +64,14 @@ document.ondragover = function(event) {
     document.getElementById("demo").innerHTML = "The p element was dropped";
   };
   
-  document.getElementById("fname").onfocus = function() {myFunction()};
-  function myFunction() {
+  document.getElementById("fname").addEventListener("focus", function() {
     document.getElementById("fname").style.backgroundColor = "red";
-  };
+  });
+
+  document.getElementById("change").addEventListener("change", myFunction);
+
+function myFunction() {
+  var x = document.getElementById("change");
+  x.value = x.value.toUpperCase();
+}
+
