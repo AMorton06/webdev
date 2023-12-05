@@ -1,0 +1,29 @@
+header {
+    font-size: xx-large;
+    margin: 20px;
+}
+
+    ul {
+    font-size: large;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    margin: 50px;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        height: 15vh;
+    }
+
+    body {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
